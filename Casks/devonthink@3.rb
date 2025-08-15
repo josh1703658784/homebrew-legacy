@@ -1,13 +1,5 @@
 cask "devonthink@3" do
-#  on_catalina :or_older do
-#    version "3.9.6"
-#    sha256 "e272af94a61619adaf729de336e1ef24465a5e6ff27ed6ae8cb11d28ca35638a"
-#
-#    livecheck do
-#      skip "Legacy version"
-#    end
-#  end
-  #on_big_sur :or_newer do
+
   version "3.9.14"
   sha256 "a1c841584432d0a0c718b9ad1fa1028ac26062c40208861f50e1f46a96d92918"
 
@@ -20,7 +12,6 @@ cask "devonthink@3" do
       items.map { |item| item.version[regex, 1] }
     end
   end
-  #end
 
   url "https://download.devontechnologies.com/download/devonthink/#{version}/DEVONthink_#{version.major}.app.zip"
   name "DEVONthink"
