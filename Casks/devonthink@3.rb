@@ -9,7 +9,7 @@ cask "devonthink@3" do
 #  end
   #on_big_sur :or_newer do
   version "3.9.14"
-  sha256 "a0d9b3757365622c7e8f1a29e9f560f6743b4675"
+  sha256 "a1c841584432d0a0c718b9ad1fa1028ac26062c40208861f50e1f46a96d92918"
 
   # The appcast may include unstable versions where upstream doesn't specify a
   # separate channel, so we have to identify stable versions using a regex.
